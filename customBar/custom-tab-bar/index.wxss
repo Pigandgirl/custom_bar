@@ -1,0 +1,5 @@
+/* custom-tab-bar/index.wxss */
+:host{
+  /* 定义全局css变量 */
+  --bg:#ebab70;
+}

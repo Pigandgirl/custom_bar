@@ -1,0 +1,2 @@
+<!--custom-tab-bar/index.wxml-->
+<view class="tabbar flex-rou"></view>

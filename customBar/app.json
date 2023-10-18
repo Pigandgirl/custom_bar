@@ -1,0 +1,41 @@
+{
+        "pages": [
+          "pages/custom-bar/custombar",
+                "pages/index/index",
+                "pages/logs/logs",
+                "pages/about/index",
+                "pages/contact/index",
+                "custom-tab-bar/index"
+                
+        ],
+        "tabBar": {
+                "list": [
+                        {
+                                "pagePath": "pages/index/index",
+                                "text": "首页",
+                                "iconPath": "images/icon/未选择主页icon.png",
+                                "selectedIconPath": "images/icon/主页.png"
+                        },
+                        {
+                                "pagePath": "pages/about/index",
+                                "text": "关于喵呜",
+                                "iconPath": "images/icon/未选择猫icon.png",
+                                "selectedIconPath": "images/icon/猫icno.png"
+                        },
+                        {
+                                "pagePath": "pages/contact/index",
+                                "text": "联系我们",
+                                "iconPath": "images/icon/咨询.png",
+                                "selectedIconPath": "images/icon/咨询选中icon.png"
+                        }
+                ]
+        },
+        "window": {
+                "backgroundTextStyle": "light",
+                "navigationBarBackgroundColor": "#fff",
+                "navigationBarTitleText": "喵呜文化模板",
+                "navigationBarTextStyle": "black"
+        },
+        "style": "v2",
+        "sitemapLocation": "sitemap.json"
+}
